@@ -1,0 +1,17 @@
+    All files, documents and folders in the "Source Code" folder (which is in the same directory of this TXT file (Please read this before opening the folder above or below.txt)) & Bulls and Cows (Version 1.1 or any later version) (Bulls and Cows.exe):
+
+    Copyright (C) 2020  Chen Hang Tsz
+
+    When you open these file ("these" refers to the files, documents and folders which are mentioned in the first line of this document), you are considered already read and agree to the GNU General Public License (Version 3 or any later version)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.

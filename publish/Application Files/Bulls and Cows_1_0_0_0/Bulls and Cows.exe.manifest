@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bulls and Cows.exe" version="1.0.0.0" publicKeyToken="3cb059ecf205b3bd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bulls and Cows" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bulls and Cows.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          若希望變更 Windows 使用者帳戶控制層級，
+          請用下列其中一項取代 requestedExecutionLevel 節點。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         若希望利用檔案及登錄模擬，提供回溯相容性，
+         則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bulls and Cows.exe" size="19856">
+      <assemblyIdentity name="Bulls and Cows" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LrQFixsVudLbwoAPDUyg/UnhueGvzfHqZG6x0PHd7Wo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bulls and Cows.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=陳衡孜\user" issuerKeyHash="ac692c5e42376e7040cbf47a2518a0b54bcb5706" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KpWO+rCjy/mvHL/wznwnYH2wSzw7s8/ez1nQCX1lVj0=</DigestValue></Reference></SignedInfo><SignatureValue>AkAvxw8ZFRYkOS7Nn4hWBnmpTmdY3cCMcM3VfyZirRKOmAxmXvch/vdAEx2VoQrnbs6M3DDWIIU3gWijUnEpHuWMblmIlgcoN/NtKtYaotL5MQeWc6EnHuANqakVGdW5yBflHIDA0BF7cH7Pavxw2MTeTJekG4OAFdZ2UYcmS4U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ya62yCr1aK8Vb8bdiF42SyX2k3PzRGXUWxWXCwbbZaatM1CG6+SVRN/dV8ifdGYDfSyBmTguIkT4NdpBdpCRIwlgMPE/a4rLWgP9kclK2Dn82n8wLMhdOBp4bfpByNps4c3hs5zWiH64P3VBO1YswDGZSZrXD8W2bUkeGJI8wgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d56657d09d059cfdecfb33b3c4bb07d60277ccef0bf1caff9cba3b0fa8e952a" Description="" Url=""><as:assemblyIdentity name="Bulls and Cows.exe" version="1.0.0.0" publicKeyToken="3cb059ecf205b3bd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=陳衡孜\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vfwNxkiUi3+GmSCpdLcsBlizPpYdrLl36XYjbGZjafk=</DigestValue></Reference></SignedInfo><SignatureValue>SpdyPE/D9eOCNw+je9PSUckd7HqDKqcU+GXmcoV3oUNrv5ot5cRXzfffsGC2klQuQ+MBpJLkcLXsjIWJNZAgmegn3bZihbYTHzZtTOCIC/UL8Cbwktx/fDdSQUtbk9DVE9OrL2ZWUHU+ftS1SSDZNneJUv0RdYJ1HqMTsl5O4xc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ya62yCr1aK8Vb8bdiF42SyX2k3PzRGXUWxWXCwbbZaatM1CG6+SVRN/dV8ifdGYDfSyBmTguIkT4NdpBdpCRIwlgMPE/a4rLWgP9kclK2Dn82n8wLMhdOBp4bfpByNps4c3hs5zWiH64P3VBO1YswDGZSZrXD8W2bUkeGJI8wgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQXscx5OieXL5GJAGeDCLpSzANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhCWc4hhW1wAXAB1AHMAZQByMB4XDTIwMDYwNjExNTUzMFoXDTIxMDYwNjE3NTUzMFowGzEZMBcGA1UEAx4QlnOIYVtcAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAya62yCr1aK8Vb8bdiF42SyX2k3PzRGXUWxWXCwbbZaatM1CG6+SVRN/dV8ifdGYDfSyBmTguIkT4NdpBdpCRIwlgMPE/a4rLWgP9kclK2Dn82n8wLMhdOBp4bfpByNps4c3hs5zWiH64P3VBO1YswDGZSZrXD8W2bUkeGJI8wgUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4r3Wy7Qg1wFAbjquXoihOZyxJCKfZVjI5Lws2rcx/mz60rxPflOk4WBGj6dBcRO7waJlFl9F9F1NJG556kHYU2ujFbRxrCQcUjU42s4gbHT8bhMN96L3TsDpn2jYRPBYyNogXRfvgZlfwQPdBwZBGF+rnd+tsTz1sCma1KTZT/g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
